@@ -15,11 +15,9 @@ class UpdateInvestigationInfo extends Component {
   }
 
   componentDidMount() {
-    // console.log("Print id: " + this.props.match.params.id);
     axios
       .get('http://localhost:8086/api/investigations/'+this.props.match.params.id)
       .then(res => {
-        // this.setState({...this.state, investigation: res.data})
         this.setState({
           title: res.data.title,
           inspector_name: res.data.inspector_name,
