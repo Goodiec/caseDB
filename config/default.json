@@ -1,0 +1,4 @@
+{
+    "mongoURI":
+        "mongodb+srv://admin:adminPass05@cluster0.lm8yr.mongodb.net/caseDB?retryWrites=true&w=majority"
+}
